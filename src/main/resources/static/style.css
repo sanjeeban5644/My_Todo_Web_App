@@ -1,0 +1,57 @@
+/* styles.css */
+
+.right-align {
+    margin-left: auto; /* Pushes the item to the right */
+}
+
+.welcome-text {
+    font-weight: bold;
+    font-size: 18px;
+}
+.bold-link {
+    font-weight: bold;
+    background-color: #ADD8E6; /* Light Blue */
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px; /* Adds space between the links */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bold-link:hover {
+    background-color: #008000; /* green on hover */
+    color: white; /* Text color changes to white on hover */
+}
+
+.bold-link-logout {
+    font-weight: bold;
+    background-color: #FFCCCC; 
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px; /* Adds space between the links */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bold-link-logout:hover {
+    background-color: #8B0000; 
+    color: white; /* Text color changes to white on hover */
+}
+
+.btn-custom {
+    color: black;
+    font-weight: bold;
+    background-color: #00CED1;
+    text-decoration: none; /* Remove underline from the link */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #00FFBF; /* Darker shade of black on hover */
+}
+
+
