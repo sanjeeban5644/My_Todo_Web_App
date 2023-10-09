@@ -39,7 +39,7 @@ public class TodoControllerJpa {
 	public String gotoAddTodo(ModelMap model) {
 		String username = getLoggedInUsername(model);
 
-		Todo todo = new Todo(0,username,"",LocalDate.now().plusYears(1),false);
+		Todo todo = new Todo(0,username,"",LocalDate.now(),false);
 		model.put("todo", todo);
 		return "addTodo";
 	}
@@ -80,7 +80,7 @@ public class TodoControllerJpa {
 		String username = getLoggedInUsername(model);
 		todo.setUsername(username);;
 		todoRepository.save(todo);
-		return "redirect::list-todos";
+		return "redirect:/list-todos";
 	}
 	
 	

@@ -18,7 +18,7 @@
 		<div class="collapse navbar-collapse">
 			<ul class="navbar-nav">
 				<li class="nav-item"><a class="nav-link bold-link bold-link"
-					href="welcome">Home</a></li>
+					href="/">Home</a></li>
 				<li class="nav-item"><a class="nav-link bold-link bold-link"
 					href="list-todos">List Page</a></li>
 			</ul>
@@ -32,7 +32,7 @@
 	
 	
 <div class="container">
-	<h1>Enter Todo Details</h1>
+	<h2>Enter Todo Details</h2>
 
 	<form:form method="post" modelAttribute="todo">
 		<fieldset class="mb-3">
